@@ -4,7 +4,7 @@ import initializeAuth from "../Firebase/firebase.init";
 
 initializeAuth();
 
-const useFirebase = () => {
+export const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
     const auth = getAuth();

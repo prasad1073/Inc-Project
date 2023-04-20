@@ -60,7 +60,7 @@ const Footer = () => {
                 </Row>
             </Container>
             <div className="footer-copy-right text-center text-white">
-                <p className='mb-0'>&copy; 2022 - <span className="developer">Saiful Emon</span> | All Rights Reserved</p>
+                <p className='mb-0'>&copy; 2023 - <span className="developer">Brain Tumor Detector</span> | All Rights Reserved</p>
             </div>
         </div>
     );

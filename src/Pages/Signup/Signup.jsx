@@ -6,10 +6,10 @@ import { useNavigate } from "react-router-dom";
 import useAuth from '../../Hooks/useAuth';
 import logo from '../../Images/BrainTumorDetector.png';
 import { Link } from 'react-router-dom';
-import './Login.css';
+import './Signup.css';
 
 
-const Login = () => {
+const Signup = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -75,15 +75,14 @@ const Login = () => {
                                                 </div>
 
                                                 <div className="text-center pt-1 mb-5 pb-1">
-                                                    <button className="theme-btn btn-fill" type="submit">Log
-                                                        in</button>
+                                                    <Link to="/login"><button className="theme-btn btn-fill" type="submit">Sign up</button></Link>
                                                     <a className="text-muted text-decoration-none" href="#!">Forgot password?</a>
                                                 </div>
 
-                                                <div className="d-flex align-items-center justify-content-center pb-4">
+                                                {/* <div className="d-flex align-items-center justify-content-center pb-4">
                                                     <p className="mb-0 me-2">Don't have an account?</p>
-                                                    <Link to="/signup" ><button type="button" className="btn btn-outline-danger" >Create new</button></Link>
-                                                </div>
+                                                    <button type="button" className="btn btn-outline-danger">Create new</button>
+                                                </div> */}
 
                                             </form>
 
@@ -118,4 +117,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Signup;

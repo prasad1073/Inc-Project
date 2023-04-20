@@ -27,7 +27,7 @@ const About = () => {
                             <div className="about-content text-start" data-aos="zoom-in">
                                 <h1>Welcome to a Family</h1>
                                 <p>We are determined to help people to easily detect brain tumor and get early treatment</p>
-                                <a href='/page/about'>About Us</a>
+                                <a href='/about'>About Us</a>
                             </div>
                             <div className="fun-fact-sec" data-aos="fade-right">
                                 <div className="single-fun">
